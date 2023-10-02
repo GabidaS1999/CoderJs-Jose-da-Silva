@@ -1,0 +1,54 @@
+.navegador {
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to right, red, black);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.navegador .titulo {
+  color: white;
+  font-size: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+main .paciente {
+  border: 1px solid black;
+  margin: 50px;
+  padding: 50px;
+}
+main .paciente h2 {
+  padding-bottom: 30px;
+  font-size: 50px;
+}
+main .paciente button {
+  font-size: 20px;
+  background: linear-gradient(to right, red, black);
+  color: white;
+}
+
+.formulario {
+  margin: 50px;
+}
+.formulario .mb-3 {
+  text-align: start;
+}
+.formulario .mb-3 .form-label {
+  justify-content: start;
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=styles.css.map */

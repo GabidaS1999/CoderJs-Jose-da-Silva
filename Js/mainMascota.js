@@ -138,9 +138,9 @@ function cargarMacota() {
         }
 
         if (isExisteMascota(mascotas, nombreMascota) && isExisteDueno(mascotas, nombreDueno)) {
-            alert(`La mascota de nombre ${nombreMascota} que pertenece a ${nombreDueno} ya esta ingresada`)
+            alert(`La mascota de nombre ${nombreMascota} que pertenece a ${nombreDueno} quedo correctamente ingresada`)
             console.table([
-                `La mascota de nombre ${nombreMascota} que pertenece a ${nombreDueno} ya esta ingresada`
+                `La mascota de nombre ${nombreMascota} que pertenece a ${nombreDueno} quedo correctamente ingresada`
             ]);
             console.table(mascotas);
         }
